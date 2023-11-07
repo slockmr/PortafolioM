@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3A3748;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to bottom, #3A3748, #000000);
+    padding: 10px 0;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 60px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFC758;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    width: auto;
+}
+
+/* Estilos para la sección "Sobre Mí" */
+.about {
+    background-color: #AD353F;
+    padding: 50px;
+    text-align: center;
+}
+
+.about h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #AD353F;
+    padding: 10px 0;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0;
+}

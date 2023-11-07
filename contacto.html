@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Contacto - Pagina portafolio</title>
+    <link rel="stylesheet" type="text/css" href="contacto.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="sobre.html">Sobre Mí</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+        </ul>
+    </nav>
+
+    <section id="contacto" class="contact">
+        <h1>Contacto</h1>
+        <p>¡Estoy emocionado por la posibilidad de conectarme contigo! Por favor, utiliza el formulario a continuación para enviarme un mensaje o envíame un correo electrónico a misael.c.mandujano@gmail.com Estaré encantado de responderte.</p>
+
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Misael Cruz</p>
+    </footer>
+</body>
+</html>
